@@ -10,7 +10,7 @@
 [![Languages: 10 Indian Regional](https://img.shields.io/badge/Languages-10%20Indic%20Supported-ff3d8b?style=for-the-badge&logo=google-translate)](https://github.com/rshamith777-cpu/bolhisab)
 [![Privacy: 100% Offline Local-First](https://img.shields.io/badge/Privacy-100%25%20Offline%20IndexedDB-1b7a42?style=for-the-badge&logo=shield)](https://github.com/rshamith777-cpu/bolhisab)
 [![AI Engine: 20MB In-Browser ONNX](https://img.shields.io/badge/AI%20Brain-20MB%20Local%20ONNX-blueviolet?style=for-the-badge&logo=webassembly)](https://github.com/rshamith777-cpu/bolhisab)
-[![Tech: Pure Three.js & Vanilla JS](https://img.shields.io/badge/Frontend-Three.js%200.160.0%20%7C%20No%20Build%20Step-black?style=for-the-badge&logo=three.js)](https://github.com/rshamith777-cpu/bolhisab)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frshamith777-cpu%2Fbolhisab)
 
 <br/>
 
@@ -203,13 +203,23 @@ BolHisab supports **10 Indian regional languages** in both native scripts and Ro
 
 ---
 
-## ⚡ Quick Start
+## ⚡ Quick Start & Deployment
 
-### Option A: Direct Static (No server required)
+### Option A: 1-Click Deploy to Vercel (Recommended)
+Deploy directly to Vercel with zero configuration:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frshamith777-cpu%2Fbolhisab)
+
+1. Click the **Deploy** button above or import `rshamith777-cpu/bolhisab` in your [Vercel Dashboard](https://vercel.com/new).
+2. Leave build settings as default (Framework Preset: **Other**, Build Command: empty, Output Directory: `./`).
+3. *(Optional)* Add `GEMINI_API_KEY` under Environment Variables if you want hybrid cloud fallback.
+4. Click **Deploy** — your live URL will be ready in under 30 seconds!
+
+### Option B: Direct Static (No server required)
 Simply double-click or open `index.html` in Google Chrome, Microsoft Edge, Safari, or Firefox.  
 BolHisab runs **100% offline** using its built-in local multi-lingual parser, in-browser neural AI brain, and browser IndexedDB.
 
-### Option B: Local Node.js Server (Recommended for Voice & Audio)
+### Option C: Local Node.js Server (Recommended for Localhost Voice & Audio)
 Web Speech API (`webkitSpeechRecognition`) works best when served over `http://localhost`.
 
 Run with Node.js (v18+ with zero external npm dependencies):
