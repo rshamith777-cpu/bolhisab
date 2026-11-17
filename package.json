@@ -1,0 +1,23 @@
+{
+  "name": "bolhisab",
+  "version": "1.0.0",
+  "description": "Voice-first daily khata ledger for chaiwalas and small shops",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/test-all-languages-and-voice.mjs"
+  },
+  "keywords": [
+    "voice-assistant",
+    "khata",
+    "indic-nlp",
+    "threejs",
+    "indexeddb",
+    "local-first",
+    "offline-first",
+    "small-business"
+  ],
+  "author": "BolHisab Team",
+  "license": "MIT"
+}
